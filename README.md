@@ -8,12 +8,12 @@ This repository is the code base for first the article on a Medium series about 
 
 ## Install
 All the commands for starting the API are described below.
- 
+
 After cloning, create a virtual environment, activate it and install all necessary libraries from the file requirements.txt.
 The last step  start a local server for running the application.
 
 ```
-python3 -m vevn env
+python3 -m venv env
 source env/bin/activate
 pip3 install -r requirements.txt
 python3 manage.py runserver 
